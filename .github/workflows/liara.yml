@@ -1,4 +1,4 @@
-name: CD-Liara
+ebname: CD-Liara
 on:
   push:
     branches:
@@ -17,4 +17,4 @@ jobs:
           LIARA_TOKEN: ${{ secrets.LIARA_API_TOKEN }}
         run: |
           npm i -g @liara/cli@9
-          liara deploy --app="alimjz" --api-token="$LIARA_TOKEN" --no-app-logs --port 3000
+          liara deploy --debug --app="alimjz" --api-token="$LIARA_TOKEN" --no-app-logs --port 3000
