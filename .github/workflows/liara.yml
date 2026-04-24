@@ -1,4 +1,4 @@
-ebname: CD-Liara
+name: CD-Liara
 on:
   push:
     branches:
