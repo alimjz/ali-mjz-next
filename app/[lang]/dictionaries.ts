@@ -373,7 +373,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
     home: {
       kicker: 'خدمات من',
       title:
-        'طراحی و پیاده سازی نیاز شما برای نمایش حرفه و پریمیوم از کسب و کارتان',
+        'طراحی و پیاده سازی وبسایت های خلاقانه و ایجاد محصول برای استارتاپ ها',
       subtitle:
         'به استارتاپ‌ها، تیم‌های محصول و برندها کمک می‌کنم تا سیستم‌های بک‌اند قابل اعتماد و وب‌سایت‌های حرفه‌ای با ارائه قوی و اجرای فنی دقیق داشته باشند.',
       primaryCta: 'گفتگو درباره پروژه',
@@ -504,7 +504,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
           website: 'https://hesr-office.ir',
           websiteLabel: 'وب‌سایت پروژه',
           thumbnailLabel: 'دفتر شهرسازی',
-          thumbnailSrc: '//hesr-office.png',
+          thumbnailSrc: '/projects/hesr-office.png',
         },
       ],
     },

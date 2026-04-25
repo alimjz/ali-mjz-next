@@ -423,7 +423,7 @@ a {
   margin: 0;
   max-width: 42rem;
   font-size: clamp(1.7rem, 2.7vw, 2.7rem);
-  line-height: 1.02;
+  line-height: 1.5;
   /* text-wrap: balance; */
 }
 
