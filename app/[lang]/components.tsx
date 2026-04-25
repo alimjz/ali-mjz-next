@@ -424,7 +424,7 @@ export function HomePageContent({ locale }: { locale: Locale }) {
       <section className="cta-panel reveal">
         <div className="max-w-3xl space-y-4">
           <p className="section-kicker">{dict.homeContact.kicker}</p>
-          <h2 className="section-title">{dict.homeContact.title}</h2>
+          <h3 className="footer-title">{dict.homeContact.title}</h3>
           <p className="section-copy">{dict.homeContact.text}</p>
         </div>
         <div className="hero-actions">
