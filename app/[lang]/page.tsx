@@ -16,7 +16,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
     <main className="brand-shell">
       <AmbientParallax />
 
-      <section className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-6 pb-12 pt-6 sm:px-10 lg:px-12">
+      <section className="page-shell mx-auto flex min-h-screen w-full max-w-7xl flex-col pb-12 pt-6">
         <SiteHeader locale={lang} path="" />
         <HomePageContent locale={lang} />
         <SiteFooter dict={dict} />

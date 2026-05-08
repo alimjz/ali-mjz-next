@@ -100,10 +100,17 @@ function ProjectThumb({
 }) {
   if (project.thumbnailSrc) {
     return (
-      <>
+      <a
+        className="project-thumbnail-link"
+        href={project.thumbnailSrc}
+        target="_blank"
+        rel="noreferrer"
+        aria-label={`Open full screenshot for ${project.name}`}
+      >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={project.thumbnailSrc} alt={project.name} className="project-thumbnail-image" />
-      </>
+        <span className="project-thumbnail-zoom">View full screenshot</span>
+      </a>
     );
   }
 
